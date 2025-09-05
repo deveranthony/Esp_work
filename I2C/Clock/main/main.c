@@ -32,16 +32,16 @@ void app_main(void)
     i2c_master_dev_handle_t dev_handel;
     i2c_master_bus_add_device(i2c_master_bus_handle,&i2c_device_config,&dev_handel);
 
-    // uint8_t write_buffer[]= {0X00,
-    //     int_to_bdc(1),
-    //     int_to_bdc(0),
-    //     int_to_bdc(19),
-    //     int_to_bdc(4),
-    //     int_to_bdc(9),
-    //     int_to_bdc(1),
-    //     int_to_bdc(25),
-    //     };
-    // ESP_ERROR_CHECK(i2c_master_transmit(dev_handel,write_buffer,sizeof(write_buffer),-1));
+    uint8_t write_buffer[]= {0X00,
+        int_to_bdc(1),
+        int_to_bdc(0),
+        int_to_bdc(19),
+        int_to_bdc(4),
+        int_to_bdc(9),
+        int_to_bdc(1),
+        int_to_bdc(25),
+        };
+    ESP_ERROR_CHECK(i2c_master_transmit(dev_handel,write_buffer,sizeof(write_buffer),-1));
 
     uint8_t write_buffer_for_read[]= {0X00};
     uint8_t read_buffer[7];
