@@ -1,0 +1,469 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM7 instead...[0m
+[0;33m--- esp-idf-monitor 1.6.0 on \\.\COM7 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40378a82: esp_cpu_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/cpu.c:64
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+[0m
+[0;33m--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375a91: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/panic.c:454
+--- 0x4037a3a9: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/esp_system_chip.c:87
+--- 0x403809d1: abort at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/abort.c:38
+--- 0x4037a39f: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/esp_err.c:49
+--- 0x420096c8: app_main at C:/Users/Alpha/file_1/main/main.c:23 (discriminator 1)
+--- 0x4201e217: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4037ab95: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403759d0: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0m

@@ -1,0 +1,14 @@
+[1/11] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Alpha\esp_work\spiffs_1\build\esp-idf\main && C:\Espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.4.1/components/spiffs/spiffsgen.py 0x100000 C:/Users/Alpha/esp_work/spiffs_1/spiffs_dir C:/Users/Alpha/esp_work/spiffs_1/build/storage.bin --page-size=256 --obj-name-len=32 --meta-len=4 --use-magic --use-magic-len"
+FAILED: esp-idf/main/CMakeFiles/spiffs_storage_bin C:/Users/Alpha/esp_work/spiffs_1/build/esp-idf/main/CMakeFiles/spiffs_storage_bin 
+C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Alpha\esp_work\spiffs_1\build\esp-idf\main && C:\Espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.4.1/components/spiffs/spiffsgen.py 0x100000 C:/Users/Alpha/esp_work/spiffs_1/spiffs_dir C:/Users/Alpha/esp_work/spiffs_1/build/storage.bin --page-size=256 --obj-name-len=32 --meta-len=4 --use-magic --use-magic-len"
+Traceback (most recent call last):
+  File "C:\Espressif\frameworks\esp-idf-v5.4.1\components\spiffs\spiffsgen.py", line 590, in <module>
+    main()
+  File "C:\Espressif\frameworks\esp-idf-v5.4.1\components\spiffs\spiffsgen.py", line 567, in main
+    raise RuntimeError('given base directory %s does not exist' % args.base_dir)
+RuntimeError: given base directory C:/Users/Alpha/esp_work/spiffs_1/spiffs_dir does not exist
+[2/11] Performing build step for 'bootloader'
+[1/1] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Alpha\esp_work\spiffs_1\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.4.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 C:/Users/Alpha/esp_work/spiffs_1/build/bootloader/bootloader.bin"
+Bootloader binary size 0x5220 bytes. 0x2de0 bytes (36%) free.
+[3/11] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+ninja: build stopped: subcommand failed.

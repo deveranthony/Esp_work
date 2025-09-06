@@ -1,0 +1,13 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM7 instead...[0m
+[0;33m--- esp-idf-monitor 1.6.0 on \\.\COM7 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40378a82: esp_cpu_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/cpu.c:64
+[0m
+[0;33m--- 0x40376e22: _xt_handle_exc at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:727
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is cfa78b6c5f8443069fee179cee5f523dd3559009b610d21f77afa8fa05bc3409[0m
+[0;33m--- 0x40376df6: _xt_to_syscall_exc at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:652
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is cfa78b6c5f8443069fee179cee5f523dd3559009b610d21f77afa8fa05bc3409[0m
+[0m

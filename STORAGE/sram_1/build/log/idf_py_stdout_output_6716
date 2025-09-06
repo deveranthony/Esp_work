@@ -1,0 +1,21 @@
+[0/1] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Alpha\esp_work\sram_1\build && C:\Espressif\tools\cmake\3.30.2\bin\cmake.exe -D IDF_SIZE_TOOL=C:/Espressif/python_env/idf5.4_py3.11_env/Scripts/python.exe;-m;esp_idf_size -D MAP_FILE=C:/Users/Alpha/esp_work/sram_1/build/sram_1.map -D OUTPUT_JSON= -P C:/Espressif/frameworks/esp-idf-v5.4.1/tools/cmake/run_size_tool.cmake"
+                            Memory Type Usage Summary                             
++--------------------------------------------------------------------------------+
+| Memory Type/Section | Used [bytes] | Used [%] | Remain [bytes] | Total [bytes] |
+|---------------------+--------------+----------+----------------+---------------|
+| Flash Code          |        96242 |     1.15 |        8292334 |       8388576 |
+|    .text            |        96242 |     1.15 |                |               |
+| DIRAM               |        54680 |     16.0 |         287080 |        341760 |
+|    .text            |        41695 |     12.2 |                |               |
+|    .data            |        10712 |     3.13 |                |               |
+|    .bss             |         2240 |     0.66 |                |               |
+| Flash Data          |        41648 |     0.12 |       33512752 |      33554400 |
+|    .rodata          |        41392 |     0.12 |                |               |
+|    .appdesc         |          256 |      0.0 |                |               |
+| IRAM                |        16383 |    99.99 |              1 |         16384 |
+|    .text            |        15356 |    93.73 |                |               |
+|    .vectors         |         1027 |     6.27 |                |               |
+| RTC FAST            |          308 |     3.76 |           7884 |          8192 |
+|    .force_fast      |           28 |     0.34 |                |               |
+|    .rtc_reserved    |           24 |     0.29 |                |               |
++--------------------------------------------------------------------------------+

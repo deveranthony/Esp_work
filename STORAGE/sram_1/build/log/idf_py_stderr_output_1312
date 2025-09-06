@@ -1,0 +1,2 @@
+ninja: error: remove(esp-idf\bootloader_support\CMakeFiles\__idf_bootloader_support.dir\src\esp32s3\secure_boot_secure_features.c.obj.d): The process cannot access the file because it is being used by another process.
+
