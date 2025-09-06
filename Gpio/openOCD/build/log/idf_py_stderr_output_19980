@@ -1,2 +1,0 @@
-warning: MY_CHOICE (defined at C:/Users/Alpha/esp_work/openOCD/main/Kconfig.projbuild:16) defined without a type
-warning: the default selection OPTIOIN_1 (undefined) of <choice> (defined at C:/Users/Alpha/esp_work/openOCD/main/Kconfig.projbuild:17) is not contained in the choice
